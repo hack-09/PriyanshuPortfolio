@@ -43,7 +43,7 @@ function ProjectSec() {
     };
 
     return (
-    <div className="justify-content-between p-4" style={gradientStyle}>
+    <div id="project" className="justify-content-between p-4" style={gradientStyle}>
         <h1 className="container fw-bolder my-4" style={{width:"100px"}}>Projects</h1>
         <div className="row row-cols-1 row-cols-md-3 g-4 mt-3">
             {visibleCards.map((card, index) => (

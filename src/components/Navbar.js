@@ -3,7 +3,7 @@ import React from 'react'
 function Navbar() {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark position-fixed w-100 z-3">
         <div class="container-fluid fs-4">
           <a class="navbar-brand fs-1" href="#">🕊️ Priyanshu Portfolio</a>
           <div className="container justify-content-center w-50">
@@ -13,16 +13,16 @@ function Navbar() {
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link active" aria-current="page" href="#home">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Skills</a>
+                  <a class="nav-link active" aria-current="page" href="#skill">Skills</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Project</a>
+                  <a class="nav-link active" aria-current="page" href="#project">Project</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                  <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
                 </li>
               </ul>
             </div>

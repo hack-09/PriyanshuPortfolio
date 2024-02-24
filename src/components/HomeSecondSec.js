@@ -7,7 +7,7 @@ function HomeSecondSec() {
         color: 'white' // Optional: adjust text color for better contrast
       };
   return (
-    <div className="d-flex justify-content-between" style={gradientStyle}>
+    <div id="skill" className="d-flex justify-content-between" style={gradientStyle}>
         <div className="my-4 w-50">
             <img src="./img/bg2.png" className="img-fluid rounded-end-pill w-75" alt="..."/>
         </div>

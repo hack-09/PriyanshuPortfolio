@@ -6,7 +6,7 @@ import ContactSec from './ContactSec.js'
 
 function Home() {
   return (
-    <div className="bg-primary text-white">
+    <div id="home" className="bg-primary text-white">
         <HomeFirstSec/>
         <div className="bg-light w-50" style={{height:"2px"}}></div>
         <HomeSecondSec/>
