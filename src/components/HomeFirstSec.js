@@ -5,7 +5,7 @@ function HomeFirstSec() {
     const gradientStyle = {
         background: 'linear-gradient(to right, #000000, #8A2387, #E94057, #F27121)',
         color: 'white',
-        height: '110vh' // Optional:
+        // height: '110vh' // Optional:
       };
   return (
     <div id="/home" className="d-flex justify-content-between homesec pt-5" style={gradientStyle}>
