@@ -27,17 +27,17 @@ function ProjectSec() {
           git:"https://github.com/hack-09/Recipe-Hub",
         },
         {
-          title: "Unit Convertor",
-          subtitle: "UnitConvert Pro is a powerful and user-friendly mobile application designed for whether you're dealing with kilometers, meters, miles, inches, or feet, this app provides a seamless and efficient way to convert lengths with precision.",
-          tech: "Android Studio, Java",
-          git:"https://github.com/hack-09/Unit-Converter",
-        },
-        {
           title: "TicTacToe",
           subtitle: "A React-based Tic-Tac-Toe game with a user-friendly interface and gameplay history tracking.",
           tech: "React.js, CSS",
           git:"https://github.com/hack-09/tictactoe",
           demo:"https://tictactoe-y5p2.onrender.com/"
+        },
+        {
+          title: "Unit Convertor",
+          subtitle: "UnitConvert Pro is a powerful and user-friendly mobile application designed for whether you're dealing with kilometers, meters, miles, inches, or feet, this app provides a seamless and efficient way to convert lengths with precision.",
+          tech: "Android Studio, Java",
+          git:"https://github.com/hack-09/Unit-Converter",
         },
         {
           title: "Netflix",
