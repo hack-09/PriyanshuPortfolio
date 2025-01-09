@@ -31,7 +31,7 @@ function HomeFirstSec() {
             </div>
         </div>
         <div className="">
-            <img src="./img/picture.jpg" className="img-fluid rounded-start-pill border border-light border-5" alt="..."/>
+            <img src="https://raw.githubusercontent.com/hack-09/Portfolio/refs/heads/main/img/picture.jpg" className="img-fluid rounded-start-pill border border-light border-5" alt="..."/>
         </div>
     </div>
   )
