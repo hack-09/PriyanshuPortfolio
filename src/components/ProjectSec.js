@@ -32,6 +32,20 @@ function ProjectSec() {
           tech: "Android Studio, Java",
           git:"https://github.com/hack-09/Unit-Converter",
         },
+        {
+          title: "TicTacToe",
+          subtitle: "A React-based Tic-Tac-Toe game with a user-friendly interface and gameplay history tracking.",
+          tech: "React.js, CSS",
+          git:"https://github.com/hack-09/tictactoe",
+          demo:"https://tictactoe-y5p2.onrender.com/"
+        },
+        {
+          title: "Netflix",
+          subtitle: "A React-based Clone of Home page of Netflix",
+          tech: "React.js, CSS, Bootstrap",
+          git:"https://github.com/hack-09/NetflixClone",
+          demo:"https://netflix-clone-vsld.onrender.com/"
+        },
       ];
 
     const [showAll, setShowAll] = useState(false);
