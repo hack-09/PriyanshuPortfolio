@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media only screen and (max-width: 600px) {
+  .my-component {
+    font-size: 14px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .topHead{
+    /* display: none; */
+    font-size: 25px !important;
   }
-  to {
-    transform: rotate(360deg);
+  .navBar{
+    width: 100vw !important;
   }
+  .navhead{
+    flex-direction: column;
+  }
+  .homesec {
+    flex-direction: column-reverse;
+  }
+  .firstText{
+    font-size: 20px !important;
+    width: 100% !important;
+  }
+  .homesec a{
+    
+    font-size: 15px !important;
+  }
+
+   /* skill section */
+  .skillImg{
+    display: none !important;;
+  }
+  .skillCard{
+    width: auto !important;
+  }
+  .skillMain{
+    width: 95% !important;
+  }
+
+
+  .card{
+    width: 100% !important;
+  }
+.card-img-top {
+  width: 100% !important;
+}
+
+
+  /* .w-50 {
+    width: 20% !important;
+} */
 }

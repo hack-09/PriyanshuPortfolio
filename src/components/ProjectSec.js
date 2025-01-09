@@ -32,6 +32,20 @@ function ProjectSec() {
           tech: "Android Studio, Java",
           git:"https://github.com/hack-09/Unit-Converter",
         },
+        {
+          title: "TicTacToe",
+          subtitle: "A React-based Tic-Tac-Toe game with a user-friendly interface and gameplay history tracking.",
+          tech: "React.js, CSS",
+          git:"https://github.com/hack-09/tictactoe",
+          demo:"https://tictactoe-y5p2.onrender.com/"
+        },
+        {
+          title: "Netflix",
+          subtitle: "A React-based Clone of Home page of Netflix",
+          tech: "React.js, CSS, Bootstrap",
+          git:"https://github.com/hack-09/NetflixClone",
+          demo:"https://netflix-clone-vsld.onrender.com/"
+        },
       ];
 
     const [showAll, setShowAll] = useState(false);
@@ -54,8 +68,8 @@ function ProjectSec() {
                             <h6 className="card-subtitle mb-2 text-body-secondary pb-2">{card.subtitle}</h6>
                             <h6>Technologies Used</h6>
                             <p className="card-text">{card.tech}</p>
-                            <a href={card.git} className="card-link">Github Repo</a>
-                            <a href={card.demo} className="card-link">{card.demo?"Live Demo":""}</a>
+                            <a href={card.git} className="card-link btn btn-outline-primary">Github Repo</a>
+                            <a href={card.demo} className={`card-link btn btn-outline-primary ${card.demo ? '' : 'd-none'}`}>Live Demo</a>
                         </div>
                     </div>
             </div>
